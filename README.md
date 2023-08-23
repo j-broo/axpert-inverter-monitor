@@ -48,12 +48,12 @@ It can also fetch graph data:
 
 You can create your own graphs by editing poll.sh and grepping different values of interest.
 
-NOTE: IOT Dashboard requires extensive configuration do parse the JSON data, so be prepared for trial and error.
+NOTE: IOT Dashboard requires extensive configuration to parse the JSON data, so be prepared for trial and error.
 
 Bonus points:
 -------------
 Install ZerotierOne on your Pi and mobile device to be able to monitor your inverter from anywhere, not just your local network.
-You'll need to bridge your LAN/WLAN and Zerotier on the Pi. More info here: https://zerotier.atlassian.net/wiki/spaces/SD/pages/224395274/Route+between+ZeroTier+and+Physical+Networks
+You'll need to bridge your LAN/WLAN and Zerotier interface on the Pi. More info here: https://zerotier.atlassian.net/wiki/spaces/SD/pages/224395274/Route+between+ZeroTier+and+Physical+Networks
 
 Credits:
 --------
