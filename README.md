@@ -6,6 +6,8 @@ Pre-requisites:
 
 1. Download, build and install Manio's inverter poller: https://github.com/manio/skymax-demo
 2. Test and make sure you can poll your inverter (poller returns results).
+3. Recommended - install and run log2ram to save your SD card since polling writes to disk very frequently - https://github.com/azlux/log2ram
+4. For PHP monitor, a web server with PHP installed, serving files from "/var/www/html". I recommend Lighttpd.
 
 Installation:
 -------------
@@ -14,16 +16,17 @@ Installation:
 2. Copy InverterMonitor.php, InverterMonitor.png and loader.js to "/var/www/html" directory.
 2. Run "chmod +x ./inverter_poller" to make executable.
 3. Run "chmod +x ./poll.sh" to make executable.
-4. Execute by running "./poll.sh &".
+4. Edit "/etc/log2ram.conf" and add the "/var/www/html/im" directory to cache it to RAM.
+5. Execute by running "./poll.sh &".
 
 Optional:
-Edit monitorconfig.json (applies only to web-monitor)
-Edit inverter.conf (should not need to, interval here does not apply)
+Edit monitorconfig.json (applies only to web-monitor) - Set your inverter model and battery count here (battery count used in voltage calculation).
+Edit inverter.conf (you should not need to, interval here does not apply).
 
 Usage:
 ------
 
-Use with included php web-monitor - http://yourraspberrypi/InverterMonitor.php
+Use with included PHP web-monitor. Simply navigate to http://yourraspberrypi/InverterMonitor.php
 
 Or
 
