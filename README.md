@@ -26,7 +26,8 @@ Optional:
 Usage:
 ------
 
-Use with included PHP web-monitor. Simply navigate to http://yourraspberrypi/InverterMonitor.php
+Use with included PHP web-monitor. This is a webpage showing your inverter data that auto-resfreshes every 5 seconds.
+Simply navigate to http://yourraspberrypi/InverterMonitor.php
 
 Or
 
