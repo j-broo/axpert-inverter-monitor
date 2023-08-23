@@ -20,7 +20,7 @@ Installation:
 2. Run "chmod +x ./inverter_poller" to make executable.
 3. Run "chmod +x ./poll.sh" to make executable.
 4. Edit "/etc/log2ram.conf" and add the "/var/www/html/im" directory to cache it to RAM.
-5. Execute by running "./poll.sh &".
+5. Execute by running "./poll.sh &". The ampersand lets the script run in the background. To terminate it, find the PID with "pidof -x poll.sh", then "kill x", where x is the PID returned.
 
 Optional:
 * Edit monitorconfig.json (applies only to web-monitor) - Set your inverter model and battery count here (battery count used in voltage calculation).
