@@ -1,6 +1,9 @@
 # axpert-inverter-monitor
 Simple monitoring for Axpert/Voltronic type inverters via a connected Raspberry Pi. No MQTT needed.
 
+![image](https://github.com/j-broo/axpert-inverter-monitor/assets/26300538/75549074-452f-4539-850e-3f14c8a32e86)
+
+
 Pre-requisites:
 ---------------
 
