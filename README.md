@@ -1,5 +1,5 @@
 # axpert-inverter-monitor
-Simple monitoring for Axpert/Voltronic type inverters. No MQTT.
+Simple monitoring for Axpert/Voltronic type inverters via a connected Raspberry Pi. No MQTT needed.
 
 Pre-requisites:
 ---------------
@@ -45,4 +45,9 @@ It can also fetch graph data:
 
 You can create your own graphs by editing poll.sh and grepping different values of interest.
 
-Credits to the original inverter poller developer: https://github.com/manio
+Bonus points:
+-------------
+Install ZerotierOne on your Pi and mobile device to be able to monitor your inverter from anywhere, not just your local network.
+You'll need to bridge your LAN/WLAN and Zerotier on the Pi. More info here: https://zerotier.atlassian.net/wiki/spaces/SD/pages/224395274/Route+between+ZeroTier+and+Physical+Networks
+
+Credits and ackowledgments to the original inverter poller developer: https://github.com/manio
