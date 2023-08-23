@@ -32,6 +32,7 @@ Use with IOT Dashboard: https://play.google.com/store/apps/details?id=com.cpk.io
 IOT Dashboard must fetch data from:
 * http://yourraspberrypi/im/data.json - Inverter data
 * http://yourraspberrypi/im/poll.json - Last poll time/date
+
 It can also fetch graph data:
 * http://yourraspberrypi/im/load_history.json - Load percentage history 
 * http://yourraspberrypi/im/temp_history.json - Temperature history
