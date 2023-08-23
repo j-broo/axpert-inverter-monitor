@@ -1,7 +1,7 @@
 # axpert-inverter-monitor
 Simple monitoring for Axpert/Voltronic type inverters via a connected Raspberry Pi. No MQTT needed.
 
-![image](https://github.com/j-broo/axpert-inverter-monitor/assets/26300538/75549074-452f-4539-850e-3f14c8a32e86)
+![image](https://github.com/j-broo/axpert-inverter-monitor/assets/26300538/a2bb5aa5-2d30-4532-8fa6-dabb710a07e3)
 
 
 Pre-requisites:
@@ -41,10 +41,10 @@ IOT Dashboard must fetch data from:
 * http://yourraspberrypi/im/poll.json - Last poll time/date
 
 It can also fetch graph data:
-* http://yourraspberrypi/im/load_history.json - Load percentage history 
+* http://yourraspberrypi/im/load_history.json - Load percentage history
 * http://yourraspberrypi/im/temp_history.json - Temperature history
 * http://yourraspberrypi/im/ac_in_history.json - Grid AC input voltage history
-* http://yourraspberrypi/im/batt_history.json - Battery discharge amperage history.
+* http://yourraspberrypi/im/batt_history.json - Battery discharge amperage history
 
 You can create your own graphs by editing poll.sh and grepping different values of interest.
 
@@ -53,4 +53,7 @@ Bonus points:
 Install ZerotierOne on your Pi and mobile device to be able to monitor your inverter from anywhere, not just your local network.
 You'll need to bridge your LAN/WLAN and Zerotier on the Pi. More info here: https://zerotier.atlassian.net/wiki/spaces/SD/pages/224395274/Route+between+ZeroTier+and+Physical+Networks
 
-Credits and ackowledgments to the original inverter poller developer: https://github.com/manio
+Credits:
+--------
+* Acknowledgements to the original inverter poller developer: https://github.com/manio
+* Acknowledgements to the developer of IOT Dashboard: https://play.google.com/store/apps/developer?id=Ciprian+Savastre
