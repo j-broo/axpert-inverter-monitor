@@ -21,6 +21,7 @@ Installation:
 
 Optional:
 Edit monitorconfig.json (applies only to web-monitor) - Set your inverter model and battery count here (battery count used in voltage calculation).
+
 Edit inverter.conf (you should not need to, interval here does not apply).
 
 Usage:
