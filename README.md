@@ -48,6 +48,8 @@ It can also fetch graph data:
 
 You can create your own graphs by editing poll.sh and grepping different values of interest.
 
+NOTE: IOT Dashboard requires extensive configuration do parse the JSON data, so be prepared for trial and error.
+
 Bonus points:
 -------------
 Install ZerotierOne on your Pi and mobile device to be able to monitor your inverter from anywhere, not just your local network.
