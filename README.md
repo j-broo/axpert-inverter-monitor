@@ -30,13 +30,13 @@ Or
 Use with IOT Dashboard: https://play.google.com/store/apps/details?id=com.cpk.iotdashboard
 
 IOT Dashboard must fetch data from:
-http://yourraspberrypi/im/data.json - Inverter data
-http://yourraspberrypi/im/poll.json - Last poll time/date
-Graph data:
-http://yourraspberrypi/im/load_history.json - Load percentage history 
-http://yourraspberrypi/im/temp_history.json - Temperature history
-http://yourraspberrypi/im/ac_in_history.json - Grid AC input voltage history
-http://yourraspberrypi/im/batt_history.json - Battery discharge amperage history.
+ http://yourraspberrypi/im/data.json - Inverter data
+ http://yourraspberrypi/im/poll.json - Last poll time/date
+It can also fetch graph data:
+ http://yourraspberrypi/im/load_history.json - Load percentage history 
+ http://yourraspberrypi/im/temp_history.json - Temperature history
+ http://yourraspberrypi/im/ac_in_history.json - Grid AC input voltage history
+ http://yourraspberrypi/im/batt_history.json - Battery discharge amperage history.
 
 You can create your own graphs by editing poll.sh and grepping different values of interest.
 
