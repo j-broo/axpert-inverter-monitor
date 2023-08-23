@@ -10,7 +10,7 @@ Pre-requisites:
 1. Download, build and install Manio's inverter poller: https://github.com/manio/skymax-demo
 2. Test and make sure you can poll your inverter (poller returns results).
 3. Recommended - install and run log2ram to save your SD card since polling writes to disk very frequently - https://github.com/azlux/log2ram
-4. For PHP monitor, a web server with PHP installed, serving files from "/var/www/html". I recommend Lighttpd.
+4. A web server with PHP installed, serving files from "/var/www/html". I recommend Lighttpd.
 
 Installation:
 -------------
